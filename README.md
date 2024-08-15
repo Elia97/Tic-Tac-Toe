@@ -1,3 +1,3 @@
 # tic-tac-toe
 
-A small example of a tic-tac-toe game
+A simple game of tic-tac-toe 
