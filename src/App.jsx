@@ -69,9 +69,9 @@ function App() {
   return (
     <>
       <div className="w-full h-screen bg-gray-400 flex flex-col gap-5 justify-center items-center">
-        <p>Giocatore: {player}</p>
+        <p>Player: {player}</p>
         <p className={`${winner === null ? "invisible" : "block"}`}>
-          {winner} Ha vinto!
+          The winner is {winner}!
         </p>
         <div
           className="grid grid-cols-3 w-72 sm:w-96 shadow-2xl rounded-md text-2xl sm:*:text-3xl *:size-24 sm:*:size-32 *:bg-gray-500 *:border *:border-gray-400 *:cursor-pointer *:flex *:justify-center *:items-center"
@@ -88,7 +88,7 @@ function App() {
             setWinner(null);
           }}
         >
-          Nuova Partita
+          New Game
         </button>
       </div>
     </>
